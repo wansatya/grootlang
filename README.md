@@ -1,6 +1,8 @@
 # GrootLang: A Musical Note System for AI Voice Commands
 
-![GrootLang Logo](logo.jpg)
+<p align="center" style="background: #fff; padding-top: 12px;">
+  <img src="logo.jpg" width="128" height="128" alt="GrootLang Logo">
+</p>
 
 ## Introduction
 
