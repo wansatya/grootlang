@@ -1,12 +1,12 @@
 # GrootLang: A Musical Note System for AI Voice Commands
 
-<p align="center" style="background: #fff; padding-top: 12px;">
+<p align="center">
   <img src="logo.jpg" width="128" height="128" alt="GrootLang Logo">
 </p>
 
-## Introduction
+## Description
 
-GrootLang is an innovative musical note system that uses tonal variations of the phrase "I am Groot" to control AI systems through voice commands. By mapping different musical notes (do-re-mi-fa-sol-la-si) to the words in "I am Groot," users can issue a wide range of commands simply by changing the pitch pattern of their speech. Unlike traditional programming languages, GrootLang operates purely through the musical qualities of voice rather than through written code or semantic meaning.
+GrootLang is an intuitive voice command system that uses musical note patterns in the phrase "I am Groot" to control AI. By varying the pitch of each word according to do-re-mi scales, users can trigger specific AI actions through melody rather than vocabulary, creating a universal, accessible interface.
 
 ## Core Concept
 
@@ -36,52 +36,202 @@ Example: "I am Groot" sung as do-re-mi would be notated as C-D-E.
 ## Command Categories
 
 ### System Control
-| Command | Musical Pattern | Description |
-|---------|-----------------|-------------|
-| Activate | C-D-E | Start or wake up the AI system |
-| Deactivate | E-D-C | End session or put AI to sleep |
-| Pause | C-C-C | Temporarily pause current operation |
-| Resume | E-E-E | Continue paused operation |
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Musical Pattern</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Activate</td>
+      <td>C-D-E</td>
+      <td>Start or wake up the AI system</td>
+    </tr>
+    <tr>
+      <td>Deactivate</td>
+      <td>E-D-C</td>
+      <td>End session or put AI to sleep</td>
+    </tr>
+    <tr>
+      <td>Pause</td>
+      <td>C-C-C</td>
+      <td>Temporarily pause current operation</td>
+    </tr>
+    <tr>
+      <td>Resume</td>
+      <td>E-E-E</td>
+      <td>Continue paused operation</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Navigation & Selection
-| Command | Musical Pattern | Description |
-|---------|-----------------|-------------|
-| Next | C-D-C | Move to next item or option |
-| Previous | E-D-E | Move to previous item or option |
-| Select | C-E-G | Confirm current selection |
-| Cancel | G-E-C | Cancel current operation or go back |
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Musical Pattern</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Next</td>
+      <td>C-D-C</td>
+      <td>Move to next item or option</td>
+    </tr>
+    <tr>
+      <td>Previous</td>
+      <td>E-D-E</td>
+      <td>Move to previous item or option</td>
+    </tr>
+    <tr>
+      <td>Select</td>
+      <td>C-E-G</td>
+      <td>Confirm current selection</td>
+    </tr>
+    <tr>
+      <td>Cancel</td>
+      <td>G-E-C</td>
+      <td>Cancel current operation or go back</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Data Input/Output
-| Command | Musical Pattern | Description |
-|---------|-----------------|-------------|
-| Input Mode | C-F-C | AI listens for data input |
-| Output Results | E-C-E | AI presents results or information |
-| Save | C-E-C | Save current data or state |
-| Load | E-C-E | Load saved data or state |
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Musical Pattern</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Input Mode</td>
+      <td>C-F-C</td>
+      <td>AI listens for data input</td>
+    </tr>
+    <tr>
+      <td>Output Results</td>
+      <td>E-C-E</td>
+      <td>AI presents results or information</td>
+    </tr>
+    <tr>
+      <td>Save</td>
+      <td>C-E-C</td>
+      <td>Save current data or state</td>
+    </tr>
+    <tr>
+      <td>Load</td>
+      <td>E-C-E</td>
+      <td>Load saved data or state</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Processing Commands
-| Command | Musical Pattern | Description |
-|---------|-----------------|-------------|
-| Analyze | C-D-F | Perform in-depth analysis |
-| Summarize | F-D-C | Create a concise summary |
-| Compare | C-G-C | Compare multiple items or data sets |
-| Transform | C-C-G | Convert data to different format |
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Musical Pattern</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Analyze</td>
+      <td>C-D-F</td>
+      <td>Perform in-depth analysis</td>
+    </tr>
+    <tr>
+      <td>Summarize</td>
+      <td>F-D-C</td>
+      <td>Create a concise summary</td>
+    </tr>
+    <tr>
+      <td>Compare</td>
+      <td>C-G-C</td>
+      <td>Compare multiple items or data sets</td>
+    </tr>
+    <tr>
+      <td>Transform</td>
+      <td>C-C-G</td>
+      <td>Convert data to different format</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Context Switching
-| Command | Musical Pattern | Description |
-|---------|-----------------|-------------|
-| Work Mode | C-D-G | Switch to professional/productivity context |
-| Entertainment Mode | E-F-A | Switch to leisure/entertainment context |
-| Learning Mode | G-A-B | Switch to educational context |
-| Social Mode | F-E-D | Switch to communication/social context |
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Musical Pattern</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Work Mode</td>
+      <td>C-D-G</td>
+      <td>Switch to professional/productivity context</td>
+    </tr>
+    <tr>
+      <td>Entertainment Mode</td>
+      <td>E-F-A</td>
+      <td>Switch to leisure/entertainment context</td>
+    </tr>
+    <tr>
+      <td>Learning Mode</td>
+      <td>G-A-B</td>
+      <td>Switch to educational context</td>
+    </tr>
+    <tr>
+      <td>Social Mode</td>
+      <td>F-E-D</td>
+      <td>Switch to communication/social context</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Modifier Commands
-| Command | Musical Pattern | Description |
-|---------|-----------------|-------------|
-| Increase/Faster | C-E-G | Speed up or increase value |
-| Decrease/Slower | G-E-C | Slow down or decrease value |
-| Repeat | C-C-E | Repeat previous action |
-| Undo | E-C-C | Reverse previous action |
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Musical Pattern</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Increase/Faster</td>
+      <td>C-E-G</td>
+      <td>Speed up or increase value</td>
+    </tr>
+    <tr>
+      <td>Decrease/Slower</td>
+      <td>G-E-C</td>
+      <td>Slow down or decrease value</td>
+    </tr>
+    <tr>
+      <td>Repeat</td>
+      <td>C-C-E</td>
+      <td>Repeat previous action</td>
+    </tr>
+    <tr>
+      <td>Undo</td>
+      <td>E-C-C</td>
+      <td>Reverse previous action</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Extended Features
 
@@ -272,19 +422,19 @@ The AI should:
 ## Development Roadmap
 
 ### Phase 1: Core Implementation
-- Basic command set recognition
-- Simple system control functions
-- Feedback mechanism
+- [x] Basic command set recognition
+- [x] Simple system control functions
+- [ ] Feedback mechanism
 
 ### Phase 2: Extended Features
-- Compound commands
-- Intensity variations
-- Contextual awareness
+- [ ] Compound commands
+- [ ] Intensity variations
+- [ ] Contextual awareness
 
 ### Phase 3: Advanced Integration
-- Application-specific command sets
-- User customization
-- Learning/adaptive recognition
+- [ ] Application-specific command sets
+- [ ] User customization
+- [ ] Learning/adaptive recognition
 
 ## Contributing
 
@@ -296,7 +446,7 @@ Contributions to GrootLang are welcome! Areas for contribution include:
 
 ## License
 
-GrootLang is released under the [MIT License](LICENSE).
+GrootLang is released under the MIT License.
 
 ## Contact
 
