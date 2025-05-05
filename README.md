@@ -6,7 +6,7 @@
 
 ## Description
 
-GrootLang is an intuitive voice command system that uses musical note patterns in the phrase "I am Groot" to control AI. By varying the pitch of each word according to do-re-mi scales, users can trigger specific AI actions through melody rather than vocabulary, creating a universal, accessible interface.
+GrootLang is an innovative musical note system that uses tonal variations of the phrase "I am Groot" to control AI systems through voice commands. By mapping different musical notes (do-re-mi-fa-sol-la-si) to the words in "I am Groot," users can issue a wide range of commands simply by changing the pitch pattern of their speech. Unlike traditional programming languages, GrootLang operates purely through the musical qualities of voice rather than through written code or semantic meaning.
 
 ## Core Concept
 
@@ -446,7 +446,7 @@ Contributions to GrootLang are welcome! Areas for contribution include:
 
 ## License
 
-GrootLang is released under the MIT License.
+GrootLang is released under the [MIT License](LICENSE).
 
 ## Contact
 
